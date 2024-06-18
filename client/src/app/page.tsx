@@ -1,10 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './page.module.css';
+import Counter from '@/app/(examples)/Counter';
 
 export default function Home(): JSX.Element {
   return (
     <main className={styles.main}>
+      <Counter />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
